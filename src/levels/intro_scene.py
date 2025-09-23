@@ -57,9 +57,6 @@ class IntroScene(Level):
 
         self.assist_global_handler.set_current_phase_number(None, override=0)
 
-        # PARA PULAR FASE
-        # self.done = True
-
     def get_event(self, event: pg.event.Event, keys):
         if self.minigame_manager.active:
             self.minigame_manager.handle_event(event, keys)

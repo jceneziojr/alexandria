@@ -66,6 +66,8 @@ class Phase3(Level):
         self.euclide.current_anim = "idle_available"
         self.euclide.anim_index = 0
 
+        self.assist_global_handler.set_current_phase_number(None, override=4)
+
     def advance_state(self, now):
         """Gerencia a transição de estados da fase."""
 

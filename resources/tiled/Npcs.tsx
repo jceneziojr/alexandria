@@ -5,7 +5,7 @@
   <image source="../graphics/npcs/npc_1.png" width="32" height="64"/>
  </tile>
  <tile id="1" type="NPC">
-  <image source="../graphics/npcs/Arch_2.png" width="32" height="64"/>
+  <image source="../graphics/npcs/idle.png" width="32" height="64"/>
  </tile>
  <tile id="2">
   <image source="../graphics/npcs/archie.png" width="44" height="64"/>

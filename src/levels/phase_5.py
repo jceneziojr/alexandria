@@ -40,7 +40,6 @@ class Phase5(Level):
     def __init__(self):
         super().__init__()
         self.current_level_name = "phase_5"
-        self.next_level_name = "map_3"
         self.info_box.box_active = True
         self.pressed_keys = set()
         self.info_box_message = ["Fale com Euclide."]
@@ -72,9 +71,10 @@ class Phase5(Level):
         self.player.body.position = (300, 487)
         self.player.can_interact = True
         self.player.can_move = True
-
         self.euclide.current_anim = "idle_available"
         self.euclide.anim_index = 0
+
+        self.assist_global_handler.set_current_phase_number(None, override=15)
 
     def advance_state(self, now):
         """gerencia a transição de estados da fase."""

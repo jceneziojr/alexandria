@@ -68,10 +68,8 @@ class Phase4(Level):
         self.euclide.current_anim = "idle_available"
         self.euclide.anim_index = 0
 
-        # self.assist_global_handler.set_current_phase_number(None, override=9)
+        self.assist_global_handler.set_current_phase_number(None, override=9)
 
-        # Pulando a fase
-        # self.done = True
 
     def advance_state(self, now):
         """gerencia a transição de estados da fase."""
@@ -137,7 +135,7 @@ class Phase4(Level):
         elif self.state == self.PhaseState.DIALOG_3:
             if self.euclide.talked_current_phase:
                 self.minigame_manager.start(QuizMiniGame,
-                                            question="Quais as componentes de frequências de um bom\nsinal de excitação?",
+                                            question="Quais as componentes de frequências de\num bom sinal de excitação?",
                                             options=[
                                                 {"text": "Baixas frequências",
                                                  "correct": False},

@@ -232,7 +232,7 @@ dialogues = {
                 "Onde temos um sinal aleatório, com amplo espectro de frequências e a mesma amplitude para todas as componentes."],
             5: ["Euclide", "Esse nome vem do Disco de Newton, que contém as cores de todo o espectro visível."],
             6: ["Euclide",
-                "Quando giramos o disco, acontece a mistura de todo esse espectro, ficando apenas a cor branca visível"],
+                "Quando giramos o disco, acontece a mistura de todo esse espectro, ficando apenas a cor branca visível."],
 
             7: ["Euclide", "Mas aqui, vamos tratar de um sinal específico: O sinal binário pseudoaleatório, ou PRBS."],
             8: ["Euclide",

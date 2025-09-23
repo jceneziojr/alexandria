@@ -58,6 +58,8 @@ class Phase2(Level):
         self.player.can_interact = True
         self.euclide.current_anim = "idle_available"
 
+        self.assist_global_handler.set_current_phase_number(None, override=2)
+
     def advance_state(self, now):
         """Gerencia transições de estado da fase."""
 

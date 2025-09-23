@@ -80,6 +80,8 @@ class Game(State):
 
         self.level_controller = LevelSystem(self)
 
+        self.next = "CREDITS"
+
     def startup(self, now, persistant):
         super().startup(now, persistant)
         self.space: pymunk.Space = persistant[

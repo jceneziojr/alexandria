@@ -48,29 +48,32 @@ class LevelSystem:
         self.level.draw(surface, pymunk_surface)
 
     def flip_level(self):
-        self.level.done = (
-            False  # apenas pra testes, nas versões finais provavelmente deve sair
-        )
+        if self.level_name == "phase_5":
+            self.game.done = True
+        else:
+            self.level.done = (
+                False  # apenas pra testes, nas versões finais provavelmente deve sair
+            )
 
-        if self.first_level_loaded:
-            previous, self.level_name = (self.level_name, self.level.next_level_name)
-            persist = self.level.cleanup()
+            if self.first_level_loaded:
+                previous, self.level_name = (self.level_name, self.level.next_level_name)
+                persist = self.level.cleanup()
 
-            if persist is not None:
-                persist = persist | self.sprites_groups
+                if persist is not None:
+                    persist = persist | self.sprites_groups
+                else:
+                    persist = self.sprites_groups
+                self.level.previous_level = previous
+                self.game.global_controller.set_current_phase_number(self.level_name)
+
             else:
                 persist = self.sprites_groups
-            self.level.previous_level = previous
-            self.game.global_controller.set_current_phase_number(self.level_name)
+                self.first_level_loaded = True
 
-        else:
-            persist = self.sprites_groups
-            self.first_level_loaded = True
+            self.level = self.level_dict[self.level_name]
 
-        self.level = self.level_dict[self.level_name]
-
-        self.level.setup_level(self.game, persist)
-        self.level.handle_music()
+            self.level.setup_level(self.game, persist)
+            self.level.handle_music()
 
     def get_event(self, event, keys):
         self.level.get_event(event, keys)
