@@ -42,7 +42,7 @@ class Phase4(Level):
         self.state_timestamp = None
 
     def handle_music(self):
-        pg.mixer.music.load("resources/sound/placeholder_main2.mp3")
+        pg.mixer.music.load("resources/sound/sound_7.mp3")
         pg.mixer.music.set_volume(0.3)
         pg.mixer.music.play(-1)
 

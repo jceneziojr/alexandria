@@ -233,7 +233,6 @@ class Level:
                 for x, y, surf in layer.tiles():
                     if layer.name == "Fundo":
                         pos = (0, 0)
-                        print(type(surf))
                         Tile(pos=pos, surf=surf, groups=(self.background_sprites_g))
                     else:
                         pos = (x * 32, y * 32)
