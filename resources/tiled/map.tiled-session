@@ -1,0 +1,254 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "library_scene.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "Blocos.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Desert_1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Fundos.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.0625,
+            "scaleInEditor": 0.33
+        },
+        "Inimigos.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Library.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Npcs.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Plataformas.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Sand_v01.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Test_blocks.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "fase_1.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 640,
+                "y": 484
+            }
+        },
+        "fase_1.tmx#Blocos": {
+            "scaleInDock": 1
+        },
+        "fase_1.tmx#Sand_v01": {
+            "scaleInDock": 1
+        },
+        "intro_scene.tmx": {
+            "expandedObjectLayers": [
+                4,
+                13
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 814,
+                "y": 540.5
+            }
+        },
+        "intro_scene.tmx#Blocos": {
+            "scaleInDock": 1
+        },
+        "library_scene.tmx": {
+            "scale": 0.8685714285714285,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 559.5394736842105,
+                "y": 320.0657894736842
+            }
+        },
+        "library_scene.tmx#Blocos": {
+            "scaleInDock": 1
+        },
+        "map_1.tmx": {
+            "expandedGroupLayers": [
+                10
+            ],
+            "expandedObjectLayers": [
+                13,
+                4,
+                14
+            ],
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 482,
+                "y": 337
+            }
+        },
+        "map_1.tmx#Blocos": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "map_1.tmx#Sand_v01": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2
+        },
+        "map_2.tmx": {
+            "expandedObjectLayers": [
+                2,
+                7
+            ],
+            "scale": 0.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 560,
+                "y": 1110
+            }
+        },
+        "map_3.tmx": {
+            "expandedObjectLayers": [
+                4,
+                2
+            ],
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 428,
+                "y": 318
+            }
+        },
+        "map_3.tmx#Blocos": {
+            "scaleInDock": 1
+        },
+        "map_3.tmx#Sand_v01": {
+            "scaleInDock": 1
+        },
+        "phase_1.tmx": {
+            "expandedObjectLayers": [
+                4,
+                13
+            ],
+            "scale": 0.75,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 428,
+                "y": 494.66666666666674
+            }
+        },
+        "phase_1.tmx#Blocos": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5
+        },
+        "phase_2.tmx": {
+            "expandedObjectLayers": [
+                13
+            ],
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 317.3333333333333,
+                "y": 510.66666666666663
+            }
+        },
+        "phase_2.tmx#Blocos": {
+            "scaleInDock": 1
+        },
+        "phase_3.tmx": {
+            "scale": 0.8753571428571427,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 559.7715218278256,
+                "y": 319.86944104447167
+            }
+        },
+        "phase_3.tmx#Blocos": {
+            "scaleInDock": 1
+        },
+        "phase_4.tmx": {
+            "scale": 0.8753571428571427,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 559.7715218278254,
+                "y": 319.86944104447167
+            }
+        },
+        "phase_4.tmx#Blocos": {
+            "scaleInDock": 1
+        },
+        "tmw_desert_spacing.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        }
+    },
+    "last.imagePath": "C:/Users/Júlio/Documents/IC 2/Codigos_IC_2/resources/graphics/backgrounds",
+    "last.objectTemplatePath": "C:/Users/Júlio/Documents/IC 2/Codigos_IC_2/resources/tiled",
+    "map.lastUsedFormat": "tmx",
+    "map.width": 35,
+    "openFiles": [
+        "Npcs.tsx",
+        "Inimigos.tsx",
+        "Blocos.tsx",
+        "Plataformas.tsx",
+        "Sand_v01.tsx",
+        "Desert_1.tsx",
+        "phase_2.tmx",
+        "phase_4.tmx",
+        "phase_1.tmx",
+        "map_2.tmx",
+        "Library.tsx",
+        "Fundos.tsx",
+        "intro_scene.tmx",
+        "library_scene.tmx"
+    ],
+    "project": "map.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "Npcs.tsx",
+        "Inimigos.tsx",
+        "Blocos.tsx",
+        "Plataformas.tsx",
+        "Sand_v01.tsx",
+        "Desert_1.tsx",
+        "phase_2.tmx",
+        "phase_4.tmx",
+        "phase_1.tmx",
+        "map_2.tmx",
+        "Library.tsx",
+        "Fundos.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    },
+    "tileset.type": 0
+}
