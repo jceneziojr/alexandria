@@ -25,7 +25,6 @@ class NPC(BaseEntity):
         super().__init__(groups, pos, size, self.image)
 
         self.animations = {
-            # "right": [GFX["player"][f"right_{i}"] for i in range(9)],
             "right": [GFX["npcs"][f"right_{i + 1}"] for i in range(9)],
             "left": [GFX["npcs"][f"left_{i + 1}"] for i in range(9)],
             "idle_available": [GFX["npcs"][f"idle_available_{i + 1}"] for i in range(8)],
@@ -52,6 +51,7 @@ class NPC(BaseEntity):
 
     def update(self):
         self.animate()
+        print(self.current_anim)
 
     def on_interaction(self):
         self.dialog_system.start_dialog(self.speaker_id, self.assist_global_handler.current_phase_number)

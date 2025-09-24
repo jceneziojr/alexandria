@@ -49,14 +49,11 @@ class LibraryScene(Level):
         self.player.body.velocity = (0, 0)
         self.assist_global_handler.set_current_phase_number(None, override=0)
 
-
     def get_event(self, event: pg.event.Event, keys):
         if self.minigame_manager.active:
             self.minigame_manager.handle_event(event, keys)
         for key in keys:
             self.pressed_keys.add(key)
-            if key == pg.K_u:
-                self.done = True
 
     def draw(self, surface, pymunk_surface):
         super().draw(surface, pymunk_surface)

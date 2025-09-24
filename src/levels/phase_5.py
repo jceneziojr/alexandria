@@ -309,6 +309,7 @@ class Phase5(Level):
                 self.state = self.PhaseState.COMPLETED
 
     def update(self, now):
+        self.euclide.update()
         self.advance_state(now)
         super().update(now)
         if self.state == self.PhaseState.COMPLETED:
