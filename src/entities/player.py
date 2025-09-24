@@ -162,8 +162,8 @@ class Player(BaseEntity):
                             _sprite.on_interaction()
                             self.current_anim = "idle"
 
-            if key == pg.K_t:
-                self.loose_life()
+            # if key == pg.K_t:
+            #     self.loose_life()
 
     def handle_movement(self):
         if self.can_move:
