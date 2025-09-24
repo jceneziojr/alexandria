@@ -145,8 +145,8 @@ class Player(BaseEntity):
         self.keys_pressed = keys
 
         for key in self.keys_pressed:
-            if key == pg.K_r:
-                self.revive()
+            # if key == pg.K_r:
+            #     self.revive()
 
             if key == pg.K_e:  # interação com objetos pela tecla
                 for _sprite in self.interactable:
@@ -222,6 +222,4 @@ class Player(BaseEntity):
         self.body.angle = 0
 
     def revive(self):
-        self.body.velocity = (0, 0)
-        self.body.position = (300, 200)
         self.life_number = 5

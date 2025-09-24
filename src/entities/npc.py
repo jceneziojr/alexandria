@@ -51,7 +51,6 @@ class NPC(BaseEntity):
 
     def update(self):
         self.animate()
-        print(self.current_anim)
 
     def on_interaction(self):
         self.dialog_system.start_dialog(self.speaker_id, self.assist_global_handler.current_phase_number)
