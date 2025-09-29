@@ -12,6 +12,20 @@ dialogues = {
             8: ["Archie", "Apenas siga as instruções contidas no livro, é bem simples."]
 
         },
+        22: {
+            1: ["Archie",
+                "Você voltou, {CTE_PLAYER_NAME}."],
+            2: ["Archie",
+                "Como está o velho Euclide?"],
+            3: ["Archie",
+                "..."],
+            4: ["Archie",
+                "Sim, eu já estive em AlexandriA há muito tempo atrás, quando eu era apenas um estudante."],
+            5: ["Archie",
+                "Espero que você tenha aprendido bastante por lá. Acredito que, a partir de agora, você se sairá muito melhor na disciplina!"],
+            6: ["Archie",
+                "Não se esqueça de AlexandriA; ela estará sempre pronta para te ajudar quando você precisar."],
+        }
     },
     'Euclide': {
         # FASE 1
@@ -542,7 +556,8 @@ dialogues = {
                 "Mas lembre que, eu apenas te dei um empurrãozinho. Procure aprender cada vez mais sobre os assuntos que tratamos aqui."],
             3: ["Euclide",
                 "Você já ficou tempo demais aqui, hora de ir pra sua era. Até logo."],
-        }
+        },
+
     },
 
 }

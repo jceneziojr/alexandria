@@ -70,7 +70,6 @@ class Phase4(Level):
 
         self.assist_global_handler.set_current_phase_number(None, override=9)
 
-
     def advance_state(self, now):
         """gerencia a transição de estados da fase."""
         if self.state == self.PhaseState.WAIT_FOR_INTERACT:

@@ -48,7 +48,7 @@ class LevelSystem:
         self.level.draw(surface, pymunk_surface)
 
     def flip_level(self):
-        if self.level_name == "phase_5":
+        if self.level_name == "ending_scene":
             self.game.done = True
         else:
             self.level.done = (

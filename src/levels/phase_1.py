@@ -42,7 +42,6 @@ class Phase1(Level):
 
         self.assist_global_handler.set_current_phase_number(None, override=1)
 
-
     def get_event(self, event: pg.event.Event, keys):
         if self.minigame_manager.active:
             self.minigame_manager.handle_event(event, keys)

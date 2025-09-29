@@ -40,6 +40,8 @@ class Phase5(Level):
     def __init__(self):
         super().__init__()
         self.current_level_name = "phase_5"
+        self.next_level_name = "ending_scene"
+
         self.info_box.box_active = True
         self.pressed_keys = set()
         self.info_box_message = ["Fale com Euclide."]

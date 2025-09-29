@@ -24,6 +24,7 @@ from ..levels.phase_4 import Phase4
 from ..levels.phase_5 import Phase5
 from ..levels.intro_scene import IntroScene
 from ..levels.library_scene import LibraryScene
+from ..levels.ending_scene import EndingScene
 
 
 class Tile(pg.sprite.Sprite):
@@ -119,7 +120,8 @@ class Game(State):
         self.dialog_system.sound_controller = self.sound_controller
 
         all_levels = {"phase_1": Phase1(), "phase_2": Phase2(), "phase_3": Phase3(), "phase_4": Phase4(),
-                      "phase_5": Phase5(), "intro_scene": IntroScene(), "library_scene": LibraryScene()}
+                      "phase_5": Phase5(), "intro_scene": IntroScene(), "library_scene": LibraryScene(),
+                      "ending_scene": EndingScene()}
 
         self.level_controller.setup_levels(all_levels, "intro_scene")
         pg.mixer.init()

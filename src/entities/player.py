@@ -31,7 +31,8 @@ class Player(BaseEntity):
             "success": [GFX["player"][f"success_{i + 1}"] for i in range(5)],
             "fail": [GFX["player"][f"fail_{i + 1}"] for i in range(11)],
             "p_idle": [GFX["player"]["p_idle"]],
-            "p_right": [GFX["player"][f"p_right_{i + 1}"] for i in range(9)]
+            "p_right": [GFX["player"][f"p_right_{i + 1}"] for i in range(9)],
+            "p_left": [GFX["player"][f"p_left_{i + 1}"] for i in range(9)]
         }
 
         self.current_anim = "idle"

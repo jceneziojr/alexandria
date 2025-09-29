@@ -47,7 +47,7 @@ PLAYER_SIZE = (50, 50)
 
 _screen = pg.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))  # setando a tela
 
-levels = ["phase_1", "phase_2", "phase_3", "phase_4", "phase_5", "intro_scene", "library_scene"]
+levels = ["phase_1", "phase_2", "phase_3", "phase_4", "phase_5", "intro_scene", "library_scene", "ending_scene"]
 tmxdata = {}
 
 for level in levels:
